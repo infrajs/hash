@@ -1,5 +1,5 @@
 {
 	"hash":{
-		"require":"*hash/hash.php"
+		"require":"*hash/infra.php"
 	}
 }

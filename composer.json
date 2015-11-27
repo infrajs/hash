@@ -1,4 +1,7 @@
 {
 	"name": "infrajs/hash",
-	"license": "GPL3"
+	"license": "GPL3",
+	"autoload": {
+		"psr-4": { "infrajs\\hash\\": "/" }
+	}
 }
