@@ -1,4 +1,4 @@
-define('?*hash/hash.js', function () {
+define('?-hash/hash.js', function () {
 	var hash = function (args) {
 		return JSON.stringify(args);
 	}
