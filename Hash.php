@@ -9,17 +9,14 @@ class Hash {
 				$a[$k] = self::make($v, true);
 			}
 		} else {
-			if (is_callable($args)) {
+			if (is_callable($args)&&!is_string($args)) {
 				$a = 'func!';
 			} else {
 				//Заглушка для функции
 				$a = $args;
 			}
 		}
-		if ($r) {
-			return serialize($a);
-		}
-
+		if ($r) return serialize($a);
 		return md5(serialize($a));
 	}
 }
