@@ -1,5 +1,3 @@
 {
-	"hash":{
-		"js":"-hash/hash.js"
-	}
+	"js":"hash.js"
 }
