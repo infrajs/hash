@@ -1,3 +1,4 @@
 {
-	"js":"Hash.js"
+	"js":"Hash.js",
+	"tester":"test.php"
 }

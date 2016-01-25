@@ -12,7 +12,6 @@ class Hash {
 			if (is_callable($args)&&!is_string($args)) {
 				$a = 'func!';
 			} else {
-				//Заглушка для функции
 				$a = $args;
 			}
 		}
