@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/infrajs/hash/v/stable)](https://packagist.org/packages/infrajs/hash) [![Total Downloads](https://poser.pugx.org/infrajs/hash/downloads)](https://packagist.org/packages/infrajs/hash) [![Latest Unstable Version](https://poser.pugx.org/infrajs/hash/v/unstable)](https://packagist.org/packages/infrajs/hash) [![License](https://poser.pugx.org/infrajs/hash/license)](https://packagist.org/packages/infrajs/hash)
+[![Latest Stable Version](https://poser.pugx.org/infrajs/hash/v/stable)](https://packagist.org/packages/infrajs/hash) [![Total Downloads](https://poser.pugx.org/infrajs/hash/downloads)](https://packagist.org/packages/infrajs/hash)
 
 # Generate a hash string of data (md5)
 >creates a unique hash from an array or a simple value.
