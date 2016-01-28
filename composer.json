@@ -3,5 +3,8 @@
 	"license": "GPL3",
 	"autoload": {
 		"psr-4": { "infrajs\\hash\\": "/" }
+	},
+	 "require-dev": {
+	    "phpunit/phpunit": "5.1.*"
 	}
 }
