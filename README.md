@@ -10,7 +10,7 @@ $hash = Hash::make($data); //$hash - Уникальный идентификат
 
 ### Testing
 
-##### Return in json: run the file test.php from the folder hash:
+##### Testing run the file test.php:
 
 > positive answer
 
@@ -24,7 +24,7 @@ $hash = Hash::make($data); //$hash - Уникальный идентификат
 {result:0, msg:"значение поменялось"}
 ```
 
-##### Testing with PHPunit, it is necessary in the command line from the folder hash
+##### Testing with PHPunit
 
 ```
 phpunit --bootstrap Hash.php tests/HashTest
@@ -36,9 +36,9 @@ phpunit --bootstrap Hash.php tests/HashTest
 
 Используется для идентификации структуры данных. Например, хэш-идентификатор позволяет хранить дополнительную информацию о данных, без изменения самих данных. Обеспечивает связь одного набора данных с другим.
 
-### Тестирование
+### Тест
 
-##### Для получения данных в json формате, необходимо запустить test.php, находящийся в папке hash:
+##### Для тестирования откройте в браузере test.php:
 
 > при положительном ответе вы увидете следующее сообщение
 
@@ -52,7 +52,7 @@ phpunit --bootstrap Hash.php tests/HashTest
 {result:0, msg:"значение поменялось"}
 ```
 
-##### Для тестирование с помощью PHPunit, необходимо в командной строке, находясь в папке hash прописать следующее
+##### Для тестирование с помощью PHPunit
 
 ```
 phpunit --bootstrap Hash.php tests/HashTest
