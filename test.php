@@ -26,9 +26,9 @@ $res = assert(Hash::make($b) === 'c899e3abc57a1426a4404a74e0a5a0cf');
 $b = function(){};
 $res = assert(Hash::make($b) === 'b35bcc328f12fccc6d8c7f7ed98cd0f1');
 if ($res) {
-	echo '{result:1}';
-	return true; 	
+	echo '{"result":1}';
+	return; 	
 }
-echo '{result:0, msg:"значение поменялось"}';
-return false;
+echo '{"result":0, "msg":"значение поменялось"}';
+return;
 
