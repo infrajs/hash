@@ -1,5 +1,6 @@
 {
 	"name": "infrajs/hash",
+	"homepage":"https://github.com/infrajs/hash",
 	"license": "GPL3",
 	"autoload": {
 		"psr-4": { "infrajs\\hash\\": "/" }
